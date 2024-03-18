@@ -7,29 +7,36 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <h1><img src="img/Logo.png" alt="logo" id="logo" /></h1>
-      <textarea
-        cols="70"
-        rows="10"
-        id="textoEncriptar"
-        class="input-padron"
-        placeholder="Ingrese texto aquí"
-        required
-      ></textarea>
+    <div class="principal">
+      <div class="seccion1">
+        <div class="logo-texto">
+          <h1><img src="img/Logo.png" alt="logo" id="logo" /></h1>
+          <textarea
+            rows="20"
+            id="textoEncriptar"
+            class="input-padron"
+            placeholder="Ingrese texto aquí"
+            required
+          ></textarea>
+        </div>
+        <div class="bts-enc-desc">
+          <input type="submit" value="Encriptar" id="btn-enc" class="btenc" />
+          <input
+            type="submit"
+            value="Desencriptar"
+            id="btn-denc"
+            class="btenc"
+          />
+        </div>
+      </div>
+      <div class="rectangule">
+        <img src="img/Muñeco.png" alt="imagen-cifrar" id="imgCifrar" />
+        <p class="mens-txt-no-enc">Ningún mensaje fue encontrado</p>
+        <p class="mens-txt-enc">
+          Ingresa el texto que desees encriptar o desencriptar.
+        </p>
+      </div>
+      <script src="validaciones.js"></script>
     </div>
-    <div class="bts-enc-desc">
-      <input type="submit" value="Encriptar" id="btn-enc" class="btenc" />
-      <input type="submit" value="Desencriptar" id="btn-denc" class="btenc" />
-    </div>
-    <div class="rectangule">
-      <img src="img/Muñeco.png" alt="imagen-cifrar" id="imgCifrar" />
-      <p class="mens-txt-no-enc">Ningún mensaje fue encontrado</p>
-      <p class="mens-txt-enc">
-        Ingresa el texto que desees encriptar o desencriptar.
-      </p>
-    </div>
-
-    <script src="validaciones.js"></script>
   </body>
 </html>

@@ -4,89 +4,99 @@
  */
 
 body {
-  width: 1440px;
-  height: 1024px;
-  top: 622px;
-  left: -2277px;
   background: #f3f5fc;
+}
+.principal {
+  display: flex;
+  flex-direction: row;
+}
+
+.seccion1 {
+  width: 70%;
 }
 
 .logo {
   align-items: vertical;
-  display: inline;
-  width: Fixed (120px);
-  height: Fixed (48px);
-  top: 40px;
-  left: 40px;
-  gap: 40px;
   box-shadow: 0px 8px 24px 0px #0000000a;
 }
 textarea {
   border: none;
   background: #f3f5fc;
   resize: none;
-  width: 577px;
-  height: 48px;
+  font-size: 1em;
+  margin: 0 20%;
+  height: 50%;
   top: 168px;
   left: 240px;
 }
+.bts-enc-desc {
+  display: inline-flex;
+  width: 70%;
+}
+.bts-enc-desc input {
+  display: inline;
+  color: #0a3871;
+  font-size: 1em;
+  text-align: center;
+  line-height: 1;
+  width: 30%;
+  height: 40px;
+  border-radius: 24px;
+  padding: 5px;
+  gap: 8pxpx;
+}
+
 .input-padron {
-  width: 577px;
-  height: 48px;
-  top: 168px;
-  left: 240px;
+  height: 400px;
+  margin: 5px auto;
+  display: block;
   font-family: Inter;
-  font-size: 32px;
-  font-weight: 400;
+  font-size: 1.5em;
+  width: 60%;
   line-height: 48px;
   letter-spacing: 0em;
   text-align: left;
 }
-
 .bts-enc-desc {
-  width: 229px;
   height: 18px;
   top: 851px;
   left: 240px;
-  gap: 8px;
+}
+
+input {
+  margin: 0 5%;
 }
 
 .rectangule {
   text-align: center;
-  width: 400px;
-  height: 944px;
+  width: 25%;
+  margin: 2%;
   top: 40px;
-  left: 1000px;
   border-radius: 32px;
   background: #ffffff;
   box-shadow: 0px 24px 32px -8px #00000014;
 }
 
 #imgCifrar {
-  width: 336px;
-  height: 304px;
-  top: 283px;
-  left: 1032px;
+  margin-top: 5em;
+  width: 100%;
 }
 
 .mens-txt-no-enc {
-  width: 336px 0px;
-  height: 58px 0px;
   font-family: Inter;
   font-size: 24px;
-  font-weight: 700px;
-  line-height: 29px;
-  letter-spacing: 0 em;
+
   background: #343a40;
 }
 
 .mens-txt-enc {
-  width: 336px 0px;
-  height: 48px 0px;
   font-family: Inter;
   font-size: 16px;
   font-weight: 400ox;
   line-height: 24px;
-  letter-spacing: 0 em;
   background: #495057;
+}
+
+textarea:hover {
+  border: none;
 }
