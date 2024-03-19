@@ -1,10 +1,6 @@
-/* body {
-  background: url(/abstract-computer-chip-metal-binary-code-security-generated-by-ai.jpg);
-}
- */
-
 body {
   background: #f3f5fc;
+  height: 100vh;
 }
 .principal {
   display: flex;
@@ -12,7 +8,8 @@ body {
 }
 
 .seccion1 {
-  width: 70%;
+  width: 66.6%;
+  margin-top: 3vh;
 }
 
 .logo {
@@ -24,79 +21,117 @@ textarea {
   background: #f3f5fc;
   resize: none;
   font-size: 1em;
-  margin: 0 20%;
-  height: 50%;
-  top: 168px;
-  left: 240px;
-}
-.bts-enc-desc {
-  display: inline-flex;
-  width: 70%;
-}
-.bts-enc-desc input {
-  display: inline;
-  color: #0a3871;
-  font-size: 1em;
-  text-align: center;
-  line-height: 1;
-  width: 30%;
-  height: 40px;
-  border-radius: 24px;
-  padding: 5px;
-  gap: 8pxpx;
+  margin: 20% 20%;
 }
 
-.input-padron {
-  height: 400px;
-  margin: 5px auto;
-  display: block;
-  font-family: Inter;
-  font-size: 1.5em;
-  width: 60%;
-  line-height: 48px;
-  letter-spacing: 0em;
-  text-align: left;
-}
 .bts-enc-desc {
-  height: 18px;
-  top: 851px;
-  left: 240px;
+  display: block;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+}
+
+.nota2 {
+  text-align: left;
+  margin-left: 25%;
+  opacity: 0.8;
+  margin-bottom: 2vh;
+  box-sizing: border-box;
+}
+
+.inputs input {
+  width: 35%;
 }
 
 input {
-  margin: 0 5%;
+  border-color: #0a3871;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 24px;
+  padding: 5px;
+  border-width: 2px;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+.input-padron {
+  height: 65vh;
+  margin: 1% auto;
+  display: block;
+  font-family: Inter;
+  font-size: 1.5em;
+  width: 55%;
+
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* */
+.bts-enc-desc {
+  width: 55%;
+  position: absolute;
+  bottom: 10%;
+}
+
+.inputs {
+  margin-left: 25%;
+  display: flex;
+  box-sizing: border-box;
+  width: 75%;
+  text-align: center;
+  justify-content: space-between;
 }
 
 .rectangule {
   text-align: center;
-  width: 25%;
+  align-items: center;
   margin: 2%;
-  top: 40px;
+  width: 35%;
+  height: 90vh;
   border-radius: 32px;
   background: #ffffff;
   box-shadow: 0px 24px 32px -8px #00000014;
+  box-sizing: border-box;
 }
 
 #imgCifrar {
-  margin-top: 5em;
-  width: 100%;
+  margin-top: 10%;
+  margin: 2% auto;
+  padding: 5%;
+  width: 90%;
 }
 
 .mens-txt-no-enc {
   font-family: Inter;
   font-size: 24px;
-
   background: #343a40;
 }
 
 .mens-txt-enc {
   font-family: Inter;
   font-size: 16px;
-  font-weight: 400ox;
   line-height: 24px;
-  background: #495057;
+  color: #495057;
 }
 
-textarea:hover {
-  border: none;
+input:hover {
+  transition: 300ms;
+  background: #0a3871;
+  color: #ffffff;
+}
+
+.textainput-padron:focus {
+  border-color: #86addc;
+}
+
+.classCopy {
+  width: 35%;
+  position: absolute;
+  bottom: 10%;
+}
+
+.btcCopy {
+  position: relative;
+  width: 41.5%;
+  margin: 0 auto;
 }
