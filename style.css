@@ -107,17 +107,20 @@ input {
   background: #343a40;
 }
 
-.mens-txt-enc {
+.mensaje-resultado {
+  padding: 5%;
   font-family: Inter;
   font-size: 16px;
   line-height: 24px;
   color: #495057;
+  word-wrap: break-word;
 }
 
 input:hover {
   transition: 300ms;
   background: #0a3871;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .textainput-padron:focus {

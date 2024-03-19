@@ -26,12 +26,14 @@
                 value="Encriptar"
                 id="btn-enc"
                 class="btenc"
+                onclick="encriptarTexto()"
               />
               <input
                 type="submit"
                 value="Desencriptar"
                 id="btn-denc"
                 class="btenc"
+                onclick="desencryptarTexto()"
               />
             </div>
           </div>
@@ -39,12 +41,17 @@
       </div>
       <div class="rectangule">
         <img src="img/Muñeco.png" alt="imagen-cifrar" id="imgCifrar" />
-        <p class="mens-txt-no-enc">Ningún mensaje fue encontrado</p>
-        <p class="mens-txt-enc">
+        <p class="mensaje-resultado">
           Ingresa el texto que desees encriptar o desencriptar.
         </p>
         <div class="classCopy">
-          <input type="submit" value="Copiar" id="btn-denc" class="btcCopy" />
+          <input
+            type="button"
+            value="Copiar"
+            id="btn-denc"
+            class="btcCopy"
+            onclick="copyTexto()"
+          />
         </div>
       </div>
       <script src="validaciones.js"></script>
